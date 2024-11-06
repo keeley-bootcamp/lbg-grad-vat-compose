@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   calc-api:
-    image: <keeleybootcamp>/lgb-grad-compose-api
+    image: keeleybootcamp/lgb-grad-compose-api
     build: ./calculator-api
     ports:
       - target: 8080
